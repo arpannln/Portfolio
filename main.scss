@@ -1,8 +1,9 @@
 @import 'partials/reset';
 
-$primary_color: #4B88A2;
-$secondary_color: #BB0A21;
-$thirdinary_color: #6B9080;
+$primary_color: rgba(12, 55, 33, 1);
+$secondary_color: rgba(216,237,242, 0.1);
+$tertiary_color: rgba(0, 156, 156, 1);
+$fourth_color: rgba(255, 29, 121, 1);
 $off_white: #FFF9FB;
 $off_black: #020F0F;
 
@@ -14,9 +15,9 @@ section {
 }
 
 nav {
-  height: 80px;
+  height: 70px;
   padding: 0 50px;
-  background-color: $primary_color;
+  background-color: $secondary_color;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,18 +26,24 @@ nav {
   left: 0;
   z-index: 10000;
 
+  ul a{
+    color: $off_white;
+    transition: all 0.5s ease;
+  }
   ul a:hover {
-    background-color: $primary_color;
-    text-decoration: underline;
+    background: none;
+    color: $fourth_color;
   }
 
   h3 {
+    color: $off_white;
     font-size: 25px;
   }
 }
 
 body {
   font-family: $primary_font;
+  background-color: $primary_color;
 
   h1, h2, h3, h4, h5, h6 {
     font-family: $title_font;
@@ -44,9 +51,11 @@ body {
 }
 
 header {
-  height: 80vh;
-  margin-top: 80px;
-  background-image: url('images/background.jpg');
+  height: 95vh;
+  margin-top: 70px;
+  background-image: url('images/theme.jpeg');
+  background-position: center;
+  background-repeat: repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -57,7 +66,7 @@ header {
 
   h1 {
     font-size: 300%;
-    margin: 10px 0;
+    margin-left: 65%;
     text-shadow: 2px 2px 3px $off_black;
   }
 
