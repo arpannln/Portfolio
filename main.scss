@@ -181,17 +181,18 @@ header {
   }
 
   .card-content {
-    color: $off_black;
+    color: $off_white;
+    background: $fifth_color;
     font-size: 15px;
   }
 
   a {
-    color: $primary_color;
+    color: $fourth_color;
     font-size: 15px;
   }
 
   a:hover {
-    color: $fourth_color;
+    color: $primary_color;
     transition: all 0.5s ease;
   }
 }
