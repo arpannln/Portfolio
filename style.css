@@ -63,8 +63,16 @@ nav {
     color: #ff0082; }
   nav .contact-links {
     position: absolute;
+    margin-top: 26px;
+    visibility: hidden;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    background-color: rgba(0, 50, 17, 0.7);
+    height: 150px; }
+    nav .contact-links li {
+      margin-top: 15px; }
+  nav ul:last-child:hover .contact-links {
+    visibility: visible; }
   nav h3 {
     color: #FFF9FB;
     font-size: 25px; }
@@ -106,7 +114,7 @@ header {
   #technologies div > div {
     box-shadow: 2px 2px 2px 2px #020F0F;
     margin: 10px;
-    background-color: #003211; }
+    background-color: rgba(0, 50, 17, 0.7); }
   #technologies i {
     font-size: 100px;
     margin: 10px 10px 20px 10px; }

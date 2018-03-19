@@ -3,8 +3,8 @@
 $primary_color: rgba(12, 55, 33, 1);
 $secondary_color: rgba(216,237,242, 0.1);
 $tertiary_color: rgba(0, 156, 156, 1);
-$fourth_color: rgba(255, 0, 130, 1); //pink
-$fifth_color:  rgba(0, 50, 17, 1); //lighter green
+$fourth_color: rgba(255, 0, 130, 1.0); //pink
+$fifth_color:  rgba(0, 50, 17, 0.7); //lighter green
 $off_white: #FFF9FB;
 $off_black: #020F0F;
 
@@ -38,9 +38,21 @@ nav {
 
   .contact-links {
     position: absolute;
-    // visibility: hidden;
+    margin-top: 26px;
+    visibility: hidden;
     display: flex;
     flex-direction: column;
+    background-color: $fifth_color;
+    height: 150px;
+    li {
+      margin-top: 15px;
+    }
+  }
+
+  ul:last-child:hover {
+    .contact-links {
+      visibility: visible;
+    }
   }
 
   h3 {
