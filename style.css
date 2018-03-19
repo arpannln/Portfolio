@@ -60,7 +60,7 @@ nav {
     transition: all 0.5s ease; }
   nav ul a:hover {
     background: none;
-    color: #001d79; }
+    color: #ff0082; }
   nav h3 {
     color: #FFF9FB;
     font-size: 25px; }
@@ -101,15 +101,13 @@ header {
     margin-left: 15%; }
   #technologies div > div {
     box-shadow: 2px 2px 2px 2px #020F0F;
-    margin: 10px; }
+    margin: 10px;
+    background-color: #003211; }
   #technologies i {
     font-size: 100px;
-    margin: 20px; }
+    margin: 10px 10px 20px 10px; }
   #technologies div > div:hover {
     box-shadow: 6px 6px 6px 6px #020F0F; }
-    #technologies div > div:hover i {
-      font-size: 105px;
-      margin: 15px; }
     #technologies div > div:hover h3 {
       visibility: visible; }
   #technologies h3 {

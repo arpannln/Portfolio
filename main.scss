@@ -3,8 +3,8 @@
 $primary_color: rgba(12, 55, 33, 1);
 $secondary_color: rgba(216,237,242, 0.1);
 $tertiary_color: rgba(0, 156, 156, 1);
-$fourth_color: rgba(0, 29, 121, 1); //pink
-$fifth_color:  rgba(0, 58, 17, 1); //lighter green
+$fourth_color: rgba(255, 0, 130, 1); //pink
+$fifth_color:  rgba(0, 50, 17, 1); //lighter green
 $off_white: #FFF9FB;
 $off_black: #020F0F;
 
@@ -90,20 +90,17 @@ header {
   div > div {
     box-shadow: 2px 2px 2px 2px $off_black;
     margin: 10px;
-    // background-color: $fifth_color;
+    background-color: $fifth_color;
   }
   i {
     font-size: 100px;
-    margin: 20px;
+    margin: 10px 10px 20px 10px;
   }
 
   div > div:hover {
 
     box-shadow: 6px 6px 6px 6px $off_black;
-    i {
-      font-size: 105px;
-      margin: 15px;
-    }
+
     h3 {
       visibility: visible;
     }
