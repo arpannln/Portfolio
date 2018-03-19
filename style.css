@@ -71,7 +71,7 @@ nav {
     height: 150px; }
     nav .contact-links li {
       margin-top: 15px; }
-  nav ul:last-child:hover .contact-links {
+  nav .contact:hover .contact-links {
     visibility: visible; }
   nav h3 {
     color: #FFF9FB;

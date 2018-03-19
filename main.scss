@@ -49,11 +49,12 @@ nav {
     }
   }
 
-  ul:last-child:hover {
+  .contact:hover {
     .contact-links {
       visibility: visible;
     }
   }
+
 
   h3 {
     color: $off_white;
