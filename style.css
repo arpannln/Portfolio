@@ -61,6 +61,10 @@ nav {
   nav ul a:hover {
     background: none;
     color: #ff0082; }
+  nav .contact-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column; }
   nav h3 {
     color: #FFF9FB;
     font-size: 25px; }
@@ -140,7 +144,9 @@ header {
   #portfolio .row {
     margin-top: 50px; }
   #portfolio .card {
-    height: 350px; }
+    height: 350px;
+    max-height: 350px;
+    width: 100%; }
   #portfolio .card-image img {
     height: 175px; }
   #portfolio .card-content {

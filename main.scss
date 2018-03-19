@@ -36,6 +36,13 @@ nav {
     color: $fourth_color;
   }
 
+  .contact-links {
+    position: absolute;
+    // visibility: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
   h3 {
     color: $off_white;
     font-size: 25px;
@@ -153,6 +160,8 @@ header {
   }
   .card {
     height: 350px;
+    max-height: 350px;
+    width: 100%;
   }
   .card-image img {
     height: 175px;
