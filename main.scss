@@ -173,7 +173,7 @@ header {
   }
   .card {
     height: 350px;
-    max-height: 350px;
+    margin: 25px 0px;
     width: 100%;
   }
   .card-image img {
@@ -183,6 +183,7 @@ header {
   .card-content {
     color: $off_white;
     background: $fifth_color;
+    height: 150px;
     font-size: 15px;
   }
 

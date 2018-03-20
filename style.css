@@ -153,13 +153,14 @@ header {
     margin-top: 50px; }
   #portfolio .card {
     height: 350px;
-    max-height: 350px;
+    margin: 25px 0px;
     width: 100%; }
   #portfolio .card-image img {
     height: 175px; }
   #portfolio .card-content {
     color: #FFF9FB;
     background: rgba(0, 50, 17, 0.7);
+    height: 150px;
     font-size: 15px; }
   #portfolio a {
     color: #ff0082;
