@@ -47,7 +47,7 @@ section {
 nav {
   height: 70px;
   padding: 0 50px;
-  background-color: rgba(216, 237, 242, 0.1);
+  background-color: rgba(1, 149, 197, 0.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,7 +67,7 @@ nav {
     visibility: hidden;
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 50, 17, 0.7);
+    background-color: rgba(0, 26, 73, 0.7);
     height: 150px; }
     nav .contact-links li {
       margin-top: 15px; }
@@ -79,7 +79,7 @@ nav {
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: #0c3721; }
+  background-color: #001a49; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: "Open Sans", sans-serif; }
 
@@ -114,7 +114,7 @@ header {
   #technologies div > div {
     box-shadow: 2px 2px 2px 2px #020F0F;
     margin: 10px;
-    background-color: rgba(0, 50, 17, 0.7); }
+    background-color: rgba(0, 26, 73, 0.7); }
   #technologies i {
     font-size: 100px;
     margin: 10px 10px 20px 10px; }
@@ -159,14 +159,14 @@ header {
     height: 175px; }
   #portfolio .card-content {
     color: #FFF9FB;
-    background: rgba(0, 50, 17, 0.7);
+    background: rgba(0, 26, 73, 0.7);
     height: 150px;
     font-size: 15px; }
   #portfolio a {
     color: #ff0082;
     font-size: 15px; }
   #portfolio a:hover {
-    color: #0c3721;
+    color: #001a49;
     transition: all 0.5s ease; }
 
 /*# sourceMappingURL=style.css.map */
