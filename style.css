@@ -61,6 +61,8 @@ nav {
   nav ul a:hover {
     background: none;
     color: #007fc1; }
+  nav .contact {
+    margin-right: 30px; }
   nav .contact-links {
     position: absolute;
     margin-top: 26px;
@@ -100,7 +102,8 @@ header {
     font-size: 300%;
     margin-left: 0%;
     text-shadow: 3px 3px 3px #020F0F;
-    margin-bottom: 5%; }
+    margin-bottom: 5%;
+    display: flex; }
   header h3 {
     font-size: 200%;
     text-shadow: 2px 2px 3px #020F0F; }
@@ -145,8 +148,9 @@ header {
   #about h2 {
     margin-bottom: 50px; }
   #about p {
+    background: rgba(0, 77, 139, 0.7);
     font-size: 22px;
-    margin: 15px 50px; }
+    margin: 15px 160px 15px 10px; }
 
 #portfolio {
   padding-top: 100px;

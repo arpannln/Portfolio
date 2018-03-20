@@ -36,6 +36,9 @@ nav {
     color: $fourth_color;
   }
 
+  .contact {
+    margin-right: 30px;
+  }
   .contact-links {
     position: absolute;
     margin-top: 26px;
@@ -90,7 +93,9 @@ header {
     margin-left: 0%;
     text-shadow: 3px 3px 3px $off_black;
     margin-bottom: 5%;
+    display: flex;
   }
+
 
   h3 {
     font-size: 200%;
@@ -160,8 +165,9 @@ header {
   }
 
   p {
+    background:  $fifth_color;
     font-size: 22px;
-    margin: 15px 50px;
+    margin: 15px 160px 15px 10px;
   }
 }
 
