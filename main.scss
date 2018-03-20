@@ -1,6 +1,6 @@
 @import 'partials/reset';
 
-$primary_color: rgba(12, 55, 33, 1);
+$primary_color: rgba(12, 55, 33, 1); //dark green
 $secondary_color: rgba(216,237,242, 0.1);
 $tertiary_color: rgba(0, 156, 156, 1);
 $fourth_color: rgba(255, 0, 130, 1.0); //pink
@@ -74,7 +74,7 @@ body {
 header {
   height: 100vh;
   margin-top: 70px;
-  background-image: url('images/theme.jpeg');
+  background-image: url('images/damn.jpeg');
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
