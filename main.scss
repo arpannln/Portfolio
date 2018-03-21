@@ -21,6 +21,7 @@ nav {
   background-color: $secondary_color;
   display: flex;
   align-items: center;
+  font-variant: small-caps;
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -71,6 +72,7 @@ body {
 
   h1, h2, h3, h4, h5, h6 {
     font-family: $title_font;
+    font-variant: small-caps;
   }
 }
 

@@ -50,6 +50,7 @@ nav {
   background-color: rgba(1, 149, 197, 0.1);
   display: flex;
   align-items: center;
+  font-variant: small-caps;
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -83,7 +84,8 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: #001a49; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Open Sans", sans-serif;
+    font-variant: small-caps; }
 
 header {
   height: 100vh;
