@@ -111,17 +111,20 @@ header {
     text-shadow: 3px 3px 3px #020F0F;
     margin-bottom: 5%;
     display: flex; }
-  header img {
-    position: absolute;
-    width: 150px;
-    height: 200px;
-    bottom: 0px;
-    animation-name: dropDown; }
-@keyframes dropDown {
-  from {
-    transform: translate3d(0, -100%, 0); }
-  to {
-    transform: translate3d(0, 0, 0); } }
+  header a {
+    width: 0;
+    height: 0;
+    margin-left: -15%; }
+    header a img {
+      margin-left: 10px;
+      position: absolute;
+      width: 150px;
+      height: 200px;
+      top: -30%;
+      transition: top 1.5s linear;
+      transition-delay: 0.5s; }
+  header .dropped {
+    top: 75%; }
   header h3 {
     font-size: 200%;
     text-shadow: 2px 2px 3px #020F0F; }
@@ -174,7 +177,7 @@ header {
     margin-bottom: 50px; }
   #about p {
     background: rgba(0, 77, 139, 0.7);
-    font-size: 22px;
+    font-size: 25px;
     margin: 15px 160px 15px 10px;
     border: 10px double #FFF9FB;
     padding: 20px 10px; }

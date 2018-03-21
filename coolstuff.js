@@ -1,0 +1,4 @@
+$(() => {
+  $("#star").addClass("dropped");
+
+});

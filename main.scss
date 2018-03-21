@@ -103,23 +103,32 @@ header {
     display: flex;
   }
 
-  img {
-    position: absolute;
-    width: 150px;
-    height: 200px;
-    bottom: 0px;
-    animation-name: dropDown;
-    
+  a {
+    width: 0;
+    height: 0;
+    margin-left: -15%;
+
+    img {
+      margin-left: 10px;
+      position: absolute;
+      width: 150px;
+      height: 200px;
+      top: -30%;
+
+      transition: top 1.5s linear;
+      transition-delay: 0.5s;
+
+    }
+
+    img:hover {
+      
+    }
+
   }
 
-  @keyframes dropDown {
-    from {
-      transform: translate3d(0, -100%, 0);
-    }
 
-    to {
-      transform: translate3d(0, 0, 0);
-    }
+  .dropped {
+    top: 75%;
   }
 
 
@@ -198,7 +207,7 @@ header {
 
   p {
     background:  $fifth_color;
-    font-size: 22px;
+    font-size: 25px;
     margin: 15px 160px 15px 10px;
     border: 10px double $off_white;
     padding: 20px 10px;
