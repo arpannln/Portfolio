@@ -150,7 +150,8 @@ header {
   #about p {
     background: rgba(0, 77, 139, 0.7);
     font-size: 22px;
-    margin: 15px 160px 15px 10px; }
+    margin: 15px 160px 15px 10px;
+    border: 10px double #FFF9FB; }
 
 #portfolio {
   padding-top: 100px;
