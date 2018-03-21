@@ -144,14 +144,16 @@ header {
   padding-top: 100px;
   font-size: 35px;
   color: #FFF9FB;
-  margin-left: 15%; }
+  margin-left: 15%;
+  text-shadow: 5px 5px 5px #020F0F; }
   #about h2 {
     margin-bottom: 50px; }
   #about p {
     background: rgba(0, 77, 139, 0.7);
     font-size: 22px;
     margin: 15px 160px 15px 10px;
-    border: 10px double #FFF9FB; }
+    border: 10px double #FFF9FB;
+    padding: 20px 10px; }
 
 #portfolio {
   padding-top: 100px;
@@ -164,6 +166,8 @@ header {
     height: 350px;
     margin: 25px 0px;
     width: 100%; }
+  #portfolio .card:hover {
+    opacity: 0.5; }
   #portfolio .card-image img {
     height: 175px; }
   #portfolio .card-content {
