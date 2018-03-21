@@ -58,10 +58,15 @@ nav {
   z-index: 10000; }
   nav ul a {
     color: #FFF9FB;
+    font-size: 17px;
     transition: all 0.5s ease; }
   nav ul a:hover {
     background: none;
-    color: #007fc1; }
+    color: #007fc1;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -ms-transform: scale(1.15); }
   nav .contact {
     margin-right: 30px; }
   nav .contact-links {
@@ -118,13 +123,19 @@ header {
     padding-top: 25px;
     margin-left: 15%; }
   #technologies div > div {
-    box-shadow: 2px 2px 2px 2px #020F0F;
-    margin: 10px;
-    background-color: #004a88; }
+    box-shadow: 0px 0px 10px 2px #FFF9FB;
+    margin: 15px;
+    background-color: #004a88;
+    border-radius: 10px;
+    transition: all 0.9s ease; }
   #technologies i {
     font-size: 100px;
     margin: 10px 10px 20px 10px; }
   #technologies div > div:hover {
+    -webkit-transform: scale(1.11);
+    -moz-transform: scale(1.11);
+    -o-transform: scale(1.11);
+    -ms-transform: scale(1.11);
     box-shadow: 6px 6px 6px 6px #020F0F;
     background-color: rgba(0, 77, 139, 0.7); }
     #technologies div > div:hover h3 {
@@ -167,9 +178,14 @@ header {
   #portfolio .card {
     height: 350px;
     margin: 25px 0px;
-    width: 100%; }
+    width: 100%;
+    transition: all 0.5s ease; }
   #portfolio .card:hover {
-    opacity: 0.5; }
+    opacity: 0.8;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05); }
   #portfolio .card-image img {
     height: 175px; }
   #portfolio .card-content {
