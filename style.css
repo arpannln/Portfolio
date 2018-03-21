@@ -47,7 +47,7 @@ section {
 nav {
   height: 70px;
   padding: 0 50px;
-  background-color: rgba(1, 149, 197, 0.1);
+  background: linear-gradient(#020F0F, rgba(1, 149, 197, 0.1));
   display: flex;
   align-items: center;
   font-variant: small-caps;
@@ -123,6 +123,11 @@ header {
       top: -30%;
       transition: top 1.5s linear;
       transition-delay: 0.5s; }
+    header a img:hover {
+      -webkit-transform: scale(1.21);
+      -moz-transform: scale(1.21);
+      -o-transform: scale(1.21);
+      -ms-transform: scale(1.21); }
   header .dropped {
     top: 75%; }
   header h3 {
@@ -139,6 +144,7 @@ header {
   #technologies div > div {
     box-shadow: 0px 0px 10px 2px #FFF9FB;
     margin: 15px;
+    min-width: 150px;
     background-color: #004a88;
     border-radius: 10px;
     transition: all 0.9s ease; }
@@ -168,7 +174,7 @@ header {
 
 #about {
   height: 600px;
-  padding-top: 100px;
+  padding: 100px 0px;
   font-size: 35px;
   color: #FFF9FB;
   margin-left: 15%;
