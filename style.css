@@ -111,6 +111,17 @@ header {
     text-shadow: 3px 3px 3px #020F0F;
     margin-bottom: 5%;
     display: flex; }
+  header img {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    bottom: 0px;
+    animation-name: dropDown; }
+@keyframes dropDown {
+  from {
+    transform: translate3d(0, -100%, 0); }
+  to {
+    transform: translate3d(0, 0, 0); } }
   header h3 {
     font-size: 200%;
     text-shadow: 2px 2px 3px #020F0F; }

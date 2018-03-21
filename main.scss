@@ -103,6 +103,25 @@ header {
     display: flex;
   }
 
+  img {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    bottom: 0px;
+    animation-name: dropDown;
+    
+  }
+
+  @keyframes dropDown {
+    from {
+      transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
 
   h3 {
     font-size: 200%;
