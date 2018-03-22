@@ -163,6 +163,10 @@ header {
   font-size: 35px;
   color: $off_white;
 
+  h2 {
+    margin-left : 60px;
+  }
+
   div {
     padding-top: 25px;
     margin-left: 15%;
@@ -243,9 +247,12 @@ header {
   color: $off_white;
 
   margin: 0% 15%;
+  margin-bottom: 50px;
   .row {
     margin-top: 50px;
   }
+
+
   .card {
     height: 350px;
     margin: 25px 0px;
