@@ -42,7 +42,10 @@ table {
   border-spacing: 0; }
 
 section {
-  height: 800px; }
+  height: 800px;
+  display: block;
+  float: none;
+  position: relative; }
 
 nav {
   height: 70px;
@@ -108,7 +111,7 @@ header {
   transition: all 0.5s ease; }
   header .hi {
     visibility: hidden;
-    transition: visibility 2s linear; }
+    transition: visibility 2s ease; }
   header .visible {
     visibility: visible; }
   header h1 {
@@ -169,6 +172,7 @@ header {
   #technologies h3 {
     position: absolute;
     margin-top: -10px;
+    margin-right: -25%;
     visibility: hidden;
     color: #FFF9FB;
     font-size: 20px;
@@ -179,12 +183,12 @@ header {
     justify-content: center; }
 
 #about {
-  height: 600px;
-  padding: 100px 0px;
   font-size: 35px;
   color: #FFF9FB;
   margin-left: 15%;
-  text-shadow: 5px 5px 5px #020F0F; }
+  text-shadow: 5px 5px 5px #020F0F;
+  height: 600px;
+  margin-bottom: 100px; }
   #about h2 {
     margin-bottom: 50px; }
   #about p {

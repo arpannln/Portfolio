@@ -13,6 +13,9 @@ $title_font: 'Open Sans', sans-serif;
 
 section {
   height:800px;
+  display: block;
+  float: none;
+  position: relative;
 }
 
 nav {
@@ -101,7 +104,7 @@ header {
 
   .hi {
     visibility: hidden;
-    transition: visibility 2s linear;
+    transition: visibility 2s ease;
   }
 
   .visible {
@@ -193,6 +196,7 @@ header {
   h3 {
     position: absolute;
     margin-top: -10px;
+    margin-right: -25%;
     visibility: hidden;
     color: $off_white;
     font-size: 20px;
@@ -210,12 +214,13 @@ header {
 }
 
 #about {
-  height: 600px;
-  padding: 100px 0px;
+
   font-size: 35px;
   color: $off_white;
   margin-left: 15%;
   text-shadow: 5px 5px 5px $off_black;
+  height: 600px;
+  margin-bottom: 100px;
 
   h2 {
     margin-bottom: 50px;
