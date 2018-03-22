@@ -62,7 +62,7 @@ nav {
   nav ul a {
     color: #FFF9FB;
     font-size: 17px;
-    transition: all 0.5s ease; }
+    transition: color 0.5s ease; }
   nav ul a:hover {
     background: none;
     color: #007fc1;
@@ -79,6 +79,7 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 77, 139, 0.7);
+    transition: all 0.2s ease;
     height: 150px; }
     nav .contact-links li {
       margin-top: 15px; }
@@ -123,9 +124,8 @@ header {
   header a {
     width: 0;
     height: 0;
-    margin-left: -15%; }
+    margin-left: -135px; }
     header a img {
-      margin-left: 10px;
       position: absolute;
       width: 150px;
       height: 200px;

@@ -35,7 +35,7 @@ nav {
   ul a{
     color: $off_white;
     font-size: 17px;
-    transition: all 0.5s ease;
+    transition: color 0.5s ease;
   }
   ul a:hover {
     background: none;
@@ -56,6 +56,8 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: $fifth_color;
+
+    transition: all 0.2s ease;
     height: 150px;
     li {
       margin-top: 15px;
@@ -122,10 +124,9 @@ header {
   a {
     width: 0;
     height: 0;
-    margin-left: -15%;
+    margin-left: -135px;
 
     img {
-      margin-left: 10px;
       position: absolute;
       width: 150px;
       height: 200px;
