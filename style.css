@@ -62,7 +62,8 @@ nav {
   nav ul a {
     color: #FFF9FB;
     font-size: 17px;
-    transition: color 0.5s ease; }
+    transition: color 0.5s ease;
+    transition: transform 0.5s ease; }
   nav ul a:hover {
     background: none;
     color: #007fc1;
@@ -133,6 +134,7 @@ header {
       transition: top 1.5s linear;
       transition-delay: 0.5s; }
     header a img:hover {
+      transition: transform 0.5s;
       -webkit-transform: scale(1.21);
       -moz-transform: scale(1.21);
       -o-transform: scale(1.21);
